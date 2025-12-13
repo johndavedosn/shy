@@ -1,0 +1,9 @@
+[package]
+name = "random"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sha2 = "0.10.9"
+clap = { version = "4.5.53" , features = ["derive"]}
+hex = "0.4.3"
