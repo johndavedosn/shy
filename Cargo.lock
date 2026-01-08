@@ -201,15 +201,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "random"
-version = "0.1.0"
-dependencies = [
- "clap",
- "hex",
- "sha2",
-]
-
-[[package]]
 name = "sha2"
 version = "0.10.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -218,6 +209,15 @@ dependencies = [
  "cfg-if",
  "cpufeatures",
  "digest",
+]
+
+[[package]]
+name = "shy"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "hex",
+ "sha2",
 ]
 
 [[package]]
